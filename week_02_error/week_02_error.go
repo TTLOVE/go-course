@@ -1,4 +1,4 @@
-package main
+package week_02_error
 
 import (
 	"database/sql"
@@ -39,9 +39,7 @@ func daoGetUserNameById(id int) (string, error) {
 	return name, nil
 }
 
-func main() {
-	var id = 1
-
+func GetUserNameById(id int) {
 	userName, err := daoGetUserNameById(id)
 
 	if err != nil {

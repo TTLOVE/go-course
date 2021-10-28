@@ -1,4 +1,4 @@
-module course/week-2-error
+module course
 
 go 1.17
 
